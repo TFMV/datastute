@@ -1,37 +1,230 @@
 <!doctype html>
-
-<html lang="en">
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if IE 9]>    <html class="no-js ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--> <html> <!--<![endif]-->
 <head>
-  <meta charset="utf-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="A Web Sandbox by Thomas F McGeehan V">
+    <meta name="author" content="Thomas Mcgeehan">
 
-  <title>The HTML5 Herald</title>
-  <meta name="description" content="The HTML5 Herald">
-  <meta name="author" content="SitePoint">
+    <title>A Web Sandbox by Thomas McGeehan</title>
 
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-  <!--[if lt IE 9]>
-  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
+    <!-- Custom Google Web Font -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
+
+    <!-- Custom CSS-->
+    <link href="css/general.css" rel="stylesheet">
+
+	 <!-- Owl-Carousel -->
+    <link href="css/custom.css" rel="stylesheet">
+	<link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/owl.theme.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/animate.css" rel="stylesheet">
+
+	<!-- Magnific Popup core CSS file -->
+	<link rel="stylesheet" href="css/magnific-popup.css">
+
+	<script src="js/modernizr-2.8.3.min.js"></script>  <!-- Modernizr /-->
+	<!--[if IE 9]>
+		<script src="js/PIE_IE9.js"></script>
+	<![endif]-->
+	<!--[if lt IE 9]>
+		<script src="js/PIE_IE678.js"></script>
+	<![endif]-->
+
+	<!--[if lt IE 9]>
+		<script src="js/html5shiv.js"></script>
+	<![endif]-->
+
 </head>
 
-<body>
-  <script async src="//jsfiddle.net/tfmv/yLawahte/embed/"></script>
-  <form method="post" action="/echo/html/" ajax="true">
+<body id="home">
 
-      <span id="result"><a href="http://wp.me/p2O9K2-b">jQuery + AJAX form submit script.</a></span>
+	<!-- Preloader -->
+	<div id="preloader">
+		<div id="status"></div>
+	</div>
 
-      <span>
-          <label>Message: </label>
-          <input type="text" name="html" placeholder="Howdy..." />
-      </span>
+	<!-- FullScreen -->
+    <div class="intro-header">
+		<div class="col-xs-12 text-center abcen1">
+			<h1 class="h1_home wow fadeIn" data-wow-delay="0.4s">datastute.com</h1>
+			<h3 class="h3_home wow fadeIn" data-wow-delay="0.6s">A web-based sandbox by Tom McGeehan</h3>
+      <h3 class="h3_home wow fadeIn" data-wow-delay="0.8s">Data Science Enthusiast</h3>
+			<ul class="list-inline intro-social-buttons">
+				<li><a href="https://www.github.com/tfmv" TARGET="_blank" class="btn  btn-lg mybutton_cyano wow fadeIn" data-wow-delay="0.8s"><span class="network-name">Github</span></a>
+				</li>
+				<li id="download" ><a href="resume/resume.html" class="btn  btn-lg mybutton_standard wow swing wow fadeIn" data-wow-delay="1.2s"><span class="network-name">Resume</span></a>
+				</li>
+        <li id="download" ><a href="resume/TFMV-RESUME.pdf" TARGET= _blank" class="btn  btn-lg mybutton_cyano wow fadeIn" data-wow-delay="1.4s"><span class="network-name">Resume PDF</span></a>
+				</li>
+			</ul>
+		</div>
+        <!-- /.container -->
+		<div class="col-xs-12 text-center abcen wow fadeIn">
+			<div class="button_down ">
+				<a class="imgcircle wow bounceInUp" data-wow-duration="1.5s"  href="#contact"> <img class="img_scroll" src="img/icon/circle.png" alt=""> </a>
+			</div>
+		</div>
+    </div>
 
-      <span>
-          <label><img id="loadingimg" src="http://dev.cloudcell.co.uk/bin/loading.gif"/>   </label>
-          <input type="submit" value="Submit" />
-      </span>
+	<!-- NavBar-->
+	<nav class="navbar-default" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="http://pythonfiddle.com/quiz-machine-learning/" target = "_blank">datastute</a>
+			</div>
 
-  </form>
+			<div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
+				<ul class="nav navbar-nav">
 
+					<li class="menuItem"><a href="#">What is?</a></li>
+					<li class="menuItem"><a href="#">Use It</a></li>
+					<li class="menuItem"><a href="#">Technology</a></li>
+					<li class="menuItem"><a href="#">Machine Learning</a></li>
+					<li class="menuItem"><a href="#contact">Contact</a></li>
+				</ul>
+			</div>
+
+		</div>
+	</nav>
+<!-- removed content >
+	<!-- Contact -->
+	<div id="contact" class="content-section-a">
+		<div class="container">
+			<div class="row">
+
+			<div class="col-md-6 col-md-offset-3 text-center wrap_title">
+				<h2>Contact me<p hidden>Tom McGeehan</p></h2>
+				<p class="lead" style="margin-top:0">(if you must)</p>
+			</div>
+
+			<form role="form" action="" method="post" >
+				<div class="col-md-6">
+					<div class="form-group">
+						<label for="InputName">Your Name</label>
+						<div class="input-group">
+							<input type="text" class="form-control" name="InputName" id="InputName" placeholder="Enter Name" required>
+							<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
+						</div>
+					</div>
+
+					<div class="form-group">
+						<label for="InputEmail">Your Email</label>
+						<div class="input-group">
+							<input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="Enter Email" required  >
+							<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
+						</div>
+					</div>
+
+					<div class="form-group">
+						<label for="InputMessage">Message</label>
+						<div class="input-group">
+							<textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" required></textarea>
+							<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
+						</div>
+					</div>
+
+					<input type="submit" name="submit" id="submit" value="Submit" class="btn wow tada btn-embossed btn-primary pull-right">
+				</div>
+			</form>
+
+			<hr class="featurette-divider hidden-lg">
+				<div class="col-md-5 col-md-push-1 address">
+					<address>
+					<h3>Physical Location</h3>
+					<p class="lead"><a href="https://goo.gl/ix7jwz">Saint Louis, Missouri<br></a>
+					Phone: +1 314.375.6681<br>
+					Email: tom @ datastute dot com</p>
+					</address>
+
+					<h3>Social</h3>
+					<li class="social">
+					<a href="https://www.facebook.com/tfmv5" target = "_blanks"><i class="fa fa-facebook-square fa-size"> </i></a>
+					<a href="https://twitter.com/tdizzle1" target = "_blanks"><i class="fa  fa-twitter-square fa-size"> </i> </a>
+					<a href="https://plus.google.com/u/0/+TomMcGeehan" target = "_blanks"><i class="fa fa-google-plus-square fa-size"> </i></a>
+					<a href="https://www.linkedin.com/in/tfmv5" target = "_blanks"><i class="fa fa-flickr fa-size"> </i> </a>
+					</li>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7">
+            <h3 class="footer-title">Follow Me!</h3>
+            <p>Add me on <a href="https://www.facebook.com/tfmv5" target = "_blanks"><i class="fa fa-facebook-square fa-size"> </i></a><br/>
+              Read some of my open source code on <a href="https://www.github.com/tfmv" TARGET="_blank"> Github.com </a><br/>
+            </p>
+
+			<!-- LICENSE -->
+			<a property="dc:title">Web code by authored</a>
+		   <a rel="dc:creator" href="https://www.linkedin.com/in/tfmv5"
+		   property="cc:attributionName">Thomas McGeehan</a>
+		   is licensed to the public under
+		   <BR>the <a rel="license"
+		   href="https://opensource.org/licenses/MIT">The MIT License (MIT)</a>.
+       <p>Analytics and Machine Learning (proprietary) algorithms may not be open source.
+
+
+          </div> <!-- /col-xs-7 -->
+
+          <div class="col-md-5">
+            <div class="footer-banner">
+              <p>
+                <img src="img/intro/edge-db.png" alt="Graph Edge DB" height="500" width="500">
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+	<script src="js/owl.carousel.js"></script>
+	<script src="js/script.js"></script>
+	<!-- StikyMenu -->
+	<script src="js/stickUp.min.js"></script>
+	<script type="text/javascript">
+	  jQuery(function($) {
+		$(document).ready( function() {
+		  $('.navbar-default').stickUp();
+
+		});
+	  });
+
+	</script>
+	<!-- Smoothscroll -->
+	<script type="text/javascript" src="js/jquery.corner.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script>
+	 new WOW().init();
+	</script>
+	<script src="js/classie.js"></script>
+	<script src="js/uiMorphingButton_inflow.js"></script>
+	<!-- Magnific Popup core JS file -->
+	<script src="js/jquery.magnific-popup.js"></script>
 </body>
+
 </html>
